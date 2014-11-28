@@ -61,3 +61,10 @@ install_dmg_app "/Volumes/Softwares/_osx/_essential/GoogleChrome.dmg" "Google Ch
 
 # GOOGLE APPS
 cp -rf "/Volumes/Softwares/_osx/_development/Chrome Apps.localized" "$HOME/Applications/"
+
+# CLONE
+# Solarized Theme
+install_git_app "https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized" "$HOME/Projects/_clone/term2-colors-solarized"
+
+# Intellij Theme
+install_git_app "https://github.com/jkaving/intellij-colors-solarized" "$HOME/Projects/_clone/intellij-colors-solarized"

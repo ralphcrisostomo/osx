@@ -48,6 +48,9 @@ install_git_project "git://github.com/ralphcrisostomo/npm_setup.git" "master" "n
 # Redis
 #launch_process "/usr/local/opt/redis/homebrew.mxcl.redis.plist"
 
+# iTerm
+launch_process "$PWD/settings/com.googlecode.iterm2.plist"
+
 # Pow
 #curl get.pow.cx | sh
 

@@ -288,3 +288,6 @@ export RUBYMINE_APP_URL="http://download.jetbrains.com/ruby/RubyMine-7.0.dmg"
 
 export KALEIDOSCOPE_APP_NAME="Kaleidoscope.app"
 export KALEIDOSCOPE_APP_URL="http://cdn.kaleidoscopeapp.com/releases/Kaleidoscope-2.1.0-134.zip"
+
+export GOOGLEDRIVE_APP_NAME="Google Drive.app"
+export GOOGLEDRIVE_APP_URL="https://dl.google.com/drive/installgoogledrive.dmg"

@@ -53,6 +53,9 @@ install_dmg_app "$YAHOOMESSENGER_APP_URL" "yahoomessenger_3.0.2build235554" "$YA
 # Dropbox
 install_dmg_app "$DROPBOX_APP_URL" "Dropbox Installer" "$DROPBOX_APP_NAME"
 
+# Google Drive
+install_dmg_app "$GOOGLEDRIVE_APP_URL" "Google Drive" "$GOOGLEDRIVE_APP_NAME"
+
 # Google Chrome
 install_dmg_app "$CHROME_APP_URL" "Google Chrome" "$CHROME_APP_NAME"
 

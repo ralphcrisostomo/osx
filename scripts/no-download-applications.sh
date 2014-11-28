@@ -53,6 +53,9 @@ install_dmg_app "/Volumes/Softwares/_osx/_essential/yahoomessenger_3.0.2build235
 # Dropbox
 install_dmg_app "/Volumes/Softwares/_osx/_essential/DropboxInstaller.dmg" "Dropbox Installer" "Dropbox.app"
 
+# Google Drive
+install_dmg_app "/Volumes/Softwares/_osx/_essential/installgoogledrive.dmg" "Google Drive" "Google Drive.app"
+
 # Google Chrome
 install_dmg_app "/Volumes/Softwares/_osx/_essential/GoogleChrome.dmg" "Google Chrome" "Google Chrome.app"
 

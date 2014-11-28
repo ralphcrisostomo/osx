@@ -60,4 +60,4 @@ install_dmg_app "/Volumes/Softwares/_osx/_essential/installgoogledrive.dmg" "Goo
 install_dmg_app "/Volumes/Softwares/_osx/_essential/GoogleChrome.dmg" "Google Chrome" "Google Chrome.app"
 
 # GOOGLE APPS
-cp -rf "/Volumes/Softwares/_osx/_development/Chrome\ Apps.localized" "$HOME/Applications/"
+cp -rf "/Volumes/Softwares/_osx/_development/Chrome Apps.localized" "$HOME/Applications/"

@@ -264,3 +264,27 @@ export CARBON_COPY_CLONER_APP_URL="http://c74b26775831609a3cf2-8064f6cbda3d6f2ab
 
 export QUICK_LOOK_PLAIN_TEXT_APP_NAME="QLStephen.qlgenerator"
 export QUICK_LOOK_PLAIN_TEXT_APP_URL="https://github.com/downloads/whomwah/qlstephen/QLStephen.qlgenerator.zip"
+
+export GITBOX_APP_NAME="Gitbox.app"
+export GITBOX_APP_URL="http://d1oa71y4zxyi0a.cloudfront.net/gitbox-1.6.2-ml.zip"
+
+export ROBOMONGO_APP_NAME="Robomongo.app"
+export ROBOMONGO_APP_URL="http://robomongo.org/files/mac/Robomongo-0.8.4-x86_64.dmg"
+
+export YAHOOMESSENGER_APP_NAME="Yahoo! Messenger.app"
+export YAHOOMESSENGER_APP_URL="http://xp.yimg.com/gj/msgr/mac/yahoomessenger_3.0.2build235554.dmg"
+
+export SKYPE_APP_NAME="Skype.app"
+export SKYPE_APP_URL="http://download.skype.com/macosx/b13255c0c672f1ceed7d4340d0986a5d/Skype_7.2.412.dmg"
+
+export MOOM_APP_NAME="Moom.app"
+export MOOM_APP_URL="http://manytricks.com/download/_do_not_hotlink_/moom320.dmg"
+
+export MOU_APP_NAME="Mou.app"
+export MOU_APP_URL="http://25.io/mou/download/Mou.zip"
+
+export RUBYMINE_APP_NAME="RubyMine.app"
+export RUBYMINE_APP_URL="http://download.jetbrains.com/ruby/RubyMine-7.0.dmg"
+
+export KALEIDOSCOPE_APP_NAME="Kaleidoscope.app"
+export KALEIDOSCOPE_APP_URL="http://cdn.kaleidoscopeapp.com/releases/Kaleidoscope-2.1.0-134.zip"

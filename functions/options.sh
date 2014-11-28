@@ -33,7 +33,8 @@ function process_option() {
       caffeinate_machine
       scripts/basic.sh
       scripts/homebrew.sh
-      scripts/applications.sh
+      # scripts/applications.sh # Enable this if you want to download online!
+      scripts/no-download-applications.sh
       scripts/extensions.sh
       scripts/defaults.sh
       scripts/setup.sh

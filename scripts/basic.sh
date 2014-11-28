@@ -15,5 +15,17 @@ sudo rm -f /System/Library/CoreServices/DefaultDesktop.jpg
 sudo cp settings/default_desktop.jpg /System/Library/CoreServices/DefaultDesktop.jpg
 
 printf "Cleaning default directories...\n"
-rm -rf $HOME/Documents/*
-rm -rf $HOME/Downloads/*
+#rm -rf $HOME/Documents/*
+#rm -rf $HOME/Downloads/*
+
+printf "Creating default directories...\n"
+#mkdir $HOME/Documents/_personal
+#mkdir $HOME/Documents/_accounts
+#mkdir $HOME/Documents/_invoice
+#mkdir $HOME/Documents/_tickets
+
+#mkdir $HOME/Projects
+#mkdir $HOME/Projects/_clone
+#mkdir $HOME/Projects/_experiments
+#mkdir $HOME/Projects/_resources
+#

@@ -66,15 +66,18 @@ launch_process "$PWD/settings/com.googlecode.iterm2.plist"
 #fi
 #install_git_project "git://github.com/bkuhlmann/sublime_text_setup.git" "v1.0.0" "sublime_text_setup" "./run.sh i"
 
+# Change shell to zsh
+
+
+# Copy inconsolata.otf font
+cp -f "$PWD/settings/Inconsolata.otf" "/Library/Fonts/"
+
 # CLONE
 # Solarized Theme
-install_git_app "https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized" "$HOME/Projects/_clone/term2-colors-solarized"
+install_git_app "https://github.com/altercation/solarized" "$HOME/Projects/_clone/solarized"
 
 # Intellij Theme
 install_git_app "https://github.com/jkaving/intellij-colors-solarized" "$HOME/Projects/_clone/intellij-colors-solarized"
-
-# Copy inconsolata.otf font
-cp -f $HOME/settings/Inconsolata.otf /Library/Fonts/
 
 # oh-my-zsh!
 rm -rf $HOME/.oh-my-zsh
@@ -85,6 +88,9 @@ rm -f $HOME/.zshrc
 rm -rf $HOME/.zsh
 install_git_project "git://github.com/ralphcrisostomo/dotfiles.git" "master" "dotfiles" "./run.sh i"
 
-source $HOME/.zshrc
+chsh -s /bin/zsh 
+
+#source $HOME/.zshrc
+
 
 

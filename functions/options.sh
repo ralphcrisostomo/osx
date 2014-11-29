@@ -15,7 +15,8 @@ function process_option() {
       scripts/homebrew.sh
       break;;
     'a')
-      scripts/applications.sh
+      #scripts/applications.sh
+      scripts/no-download-applications.sh
       break;;
     'x')
       scripts/extensions.sh

@@ -38,6 +38,7 @@ function process_option() {
       scripts/no-download-applications.sh
       scripts/extensions.sh
       scripts/defaults.sh
+      scripts/clone.sh
       scripts/setup.sh
       clean_work_path
       break;;

@@ -68,16 +68,6 @@ install_git_project "git://github.com/ralphcrisostomo/npm_setup.git" "master" "n
 # Change shell to zsh
 
 
-# APP SETTINGS
-# iTerm
-cp -f "$PWD/settings/com.googlecode.iterm2.plist" "$HOME/Library/Preferences/"
-
-# Moom
-cp -f "$PWD/settings/com.manytricks.Moom.plist" "$HOME/Library/Preferences/"
-
-# FONTS
-# Copy inconsolata.otf font
-cp -f "$PWD/settings/Inconsolata.otf" "/Library/Fonts/"
 
 # CLONE
 # Solarized Theme
@@ -97,7 +87,7 @@ install_git_project "git://github.com/ralphcrisostomo/dotfiles.git" "master" "do
 
 chsh -s /bin/zsh 
 
-#source $HOME/.zshrc
+source $HOME/.zshrc
 
 
 

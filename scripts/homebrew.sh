@@ -33,6 +33,9 @@ brew install hr
 # Git
 brew install git
 
+# Silver Searcher
+brew install the_silver_searcher
+
 # Tag
 brew install tag
 

@@ -291,3 +291,10 @@ export KALEIDOSCOPE_APP_URL="http://cdn.kaleidoscopeapp.com/releases/Kaleidoscop
 
 export GOOGLEDRIVE_APP_NAME="Google Drive.app"
 export GOOGLEDRIVE_APP_URL="https://dl.google.com/drive/installgoogledrive.dmg"
+
+export WINE_APP_NAME="Wine.app"
+export WINE_APP_URL="http://winebottler.kronenberg.org/combo/builds/WineBottlerCombo_1.7.31.dmg"
+
+export WINEBOTTLER_APP_NAME="Wine.app"
+export WINEBOTLLER_APP_URL="http://winebottler.kronenberg.org/combo/builds/WineBottlerCombo_1.7.31.dmg"
+

@@ -32,6 +32,12 @@ install_dmg_app "$SUBLIME_TEXT_APP_URL" "Sublime Text 2" "$SUBLIME_TEXT_APP_NAME
 install_zip_app "$SUBLIME_URL_HANDLER_APP_URL" "$SUBLIME_URL_HANDLER_APP_NAME"
 
 # ESSENTIAL
+# Wine
+install_dmg_app "$WINE_APP_URL" "WineBottler Combo" "$WINE_APP_NAME"
+
+# WineBottler
+install_dmg_app "$WINEBOTTLER_APP_URL" "WineBottler Combo" "$WINEBOTTLER_APP_NAME"
+
 # Moom
 install_dmg_app "$MOOM_APP_URL" "moom320" "$MOOM_APP_NAME"
 

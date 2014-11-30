@@ -32,6 +32,15 @@ install_dmg_app "file:/Volumes/Softwares/_osx/_development/Sublime Text 2.0.2.dm
 install_zip_app "file:/Volumes/Softwares/_osx/_development/SublHandler.zip" "SublHandler.app"
 
 # ESSENTIAL
+# JAVA
+install_dmg_pkg "file:/Volumes/Softwares/_osx/_essential/JavaForOSX2014-001.dmg" "Java For OS X 2014-001" "Java.app"
+
+# Wine
+install_dmg_app "file:/Volumes/Softwares/_osx/_essential/WineBottlerCombo_1.7.31.dmg" "WineBottler Combo" "Wine.app"
+
+# WineBottler
+install_dmg_app "file:/Volumes/Softwares/_osx/_essential/WineBottlerCombo_1.7.31.dmg" "WineBottler Combo" "WineBottler.app"
+
 # Moom
 install_dmg_app "file:/Volumes/Softwares/_osx/_essential/moom320.dmg" "Moom" "Moom.app"
 

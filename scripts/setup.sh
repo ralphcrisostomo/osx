@@ -48,8 +48,7 @@ install_git_project "git://github.com/ralphcrisostomo/npm_setup.git" "master" "n
 # Redis
 #launch_process "/usr/local/opt/redis/homebrew.mxcl.redis.plist"
 
-# iTerm
-launch_process "$PWD/settings/com.googlecode.iterm2.plist"
+
 
 # Pow
 #curl get.pow.cx | sh
@@ -69,6 +68,14 @@ launch_process "$PWD/settings/com.googlecode.iterm2.plist"
 # Change shell to zsh
 
 
+# APP SETTINGS
+# iTerm
+cp -f "$PWD/settings/com.googlecode.iterm2.plist" "$HOME/Library/Preferences/"
+
+# Moom
+cp -f "$PWD/settings/com.manytricks.Moom.plist" "$HOME/Library/Preferences/"
+
+# FONTS
 # Copy inconsolata.otf font
 cp -f "$PWD/settings/Inconsolata.otf" "/Library/Fonts/"
 

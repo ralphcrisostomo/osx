@@ -31,7 +31,7 @@ brew install tree
 brew install hr
 
 # Git
-brew install git
+brew install git --without-completions
 
 # Silver Searcher
 brew install the_silver_searcher

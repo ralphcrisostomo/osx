@@ -8,6 +8,9 @@
 # $1 = The option to process.
 function process_option() {
   case $1 in
+    'r')
+      scripts/clone.sh
+      break;;
     'b')
       scripts/basic.sh
       break;;
